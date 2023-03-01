@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Splash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9c959e29b5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -37,6 +37,20 @@
             <li><a href="gallery">Gallery</a></li>
         </div>
     </section>
+
+    <script>
+        const togglebtn = document.querySelector('.toggle-btn')
+        const togglebtnicon = document.querySelector('.toggle-btn i')
+        const dropmenu = document.querySelector('.drop-menu')
+
+        togglebtn.onclick = function () {
+            dropmenu.classlist.toggle('open')
+
+        }
+
+    </script>
+
+
 </body>
 
 </html>
