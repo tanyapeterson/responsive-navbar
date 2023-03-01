@@ -6,6 +6,13 @@ body {
     background-size: cover;
 }
 
+
+.section-one {
+    position: relative;
+    padding-right: 30px;
+    margin-left: 40px
+}
+
 li {
     list-style: none;
 }
@@ -13,6 +20,84 @@ li {
 a {
     text-decoration: none;
     color: antiquewhite;
-    font-family: 'Splash', cursive;
-    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: #A8D1D1
+}
+
+.nav-bar {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.fa-solid {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+
+.toggle-btn {
+    cursor: pointer;
+    display: none;
+}
+
+/* DROP-MENU*/
+
+.drop-menu {
+
+    display: none;
+    position: absolute;
+    top: 60px;
+    height: 0;
+    right: 30px;
+    width: 150px;
+    background: #A8D1D1;
+}
+
+.drop-menu.open {
+    height: 80px;
+}
+
+.drop-menu li {
+    padding: 10px;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+
+
+@media screen and (max-width: 768px) {
+
+    .nav-bar .list {
+        display: none;
+    }
+
+    .nav-bar .toggle-btn {
+        display: block;
+
+    }
+
+    .drop-menu {
+        display: block;
+    }
 }
