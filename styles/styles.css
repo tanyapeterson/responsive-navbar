@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url(https://wallpaperaccess.com/full/898026.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Splash', cursive;
+    font-size: 40px;
+}
