@@ -60,7 +60,7 @@ a:hover {
     display: none;
 }
 
-/* DROP-MENU*/
+
 
 .drop-menu {
 
@@ -69,22 +69,23 @@ a:hover {
     top: 60px;
     height: 0;
     right: 30px;
-    width: 150px;
+    width: 200px;
     background: #86A3B8;
+    text-align: center;
     overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+
 .drop-menu.open {
-    height: 200px;
+    height: 250px;
 }
+
 
 .drop-menu li {
     padding: 12px;
 }
 
-
-
-/*RESPONSIVE DESIGN*/
 
 
 @media screen and (max-width: 768px) {
